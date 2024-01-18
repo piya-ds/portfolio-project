@@ -40,7 +40,6 @@ header {
     margin-left: 50px;
 }
 
-
 .name {
     font-family: "Exo",sans-serif;
     font-weight: 100;
@@ -57,3 +56,122 @@ header {
     margin-bottom: 90px;
     color: #fff;
 }
+
+.logo{
+    background: url(../images/DSC_0560.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menu-container{
+    font-size: 0;
+}
+.nav-bar{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    margin: 0;
+}
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+.menu-items{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-items a {
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+    color: #fff;
+}
+
+.menu-items a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* -----------------------------------hover---------------------------- */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
+}
+
+/* -----------------------------------footer---------------------------- */
+
+footer{
+    color: #fafafa;
+    background-color: #525252;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-link{
+    padding-left: 5px;
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-link i:hover {
+    color: #e84610;
+}
+
+.social-link-list{
+    padding-bottom: 15px;
+}
+
+.social-link-list li a i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-link-list li a i:hover{
+    background: #e84610;
+}
+
+#footer-details{
+    padding: 20px;
+}
+
